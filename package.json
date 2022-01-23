@@ -1,0 +1,26 @@
+{
+  "name": "simple_http",
+  "version": "0.0.0",
+  "engines": {
+    "node": "12.11.0",
+    "npm": "6.11.3"
+  },
+  "description": "IGME 430 Exercise",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinrheza88/basic-http-class-example.git"
+  },
+  "author": "Kevin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
